@@ -14,18 +14,19 @@ body {
 .header,
 .sector1,
 .footer {
+   display: flex;
    color: #F9FAF8;
    background-color: #1F2937;
 }
 
 .header {
-   display: flex;
    justify-content: space-between;
    flex: auto;
 }
 
 .Right {
    font-weight: 900;
+   font-size: 18px;
 }
 
 .Left {
@@ -45,9 +46,33 @@ li {
 
 /* Sector 1 */
 
-.sector1 button {
+.sector1 {
+   align-items: center;
+   justify-content: space-around;
+   gap: 20px;
+   flex: auto;
+   padding: 50px;
+}
+
+.sector1 img {
+   width: 500px;
+   height: 200px;
+}
+
+.sector1-title {
+   font-size: 48px;
+   font-weight: 900;
+}
+
+.sector1-text {
+   font-weight: 200;
+   margin-bottom: 10px;
+}
+
+.sector1 button,
+.sector4 button {
    color: #F9FAF8;
-   background-color: #3B82F6;
+   background-color: #3882F6;
    font-weight: 700;
    padding: 7px 20px;
    border: none;
