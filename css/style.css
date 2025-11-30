@@ -1,0 +1,55 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* set boxes to be the exact size I define */
+}
+
+body {
+   font-family: Roboto;
+   display: flex;
+   flex-direction: column;
+}
+
+.header,
+.sector1,
+.footer {
+   color: #F9FAF8;
+   background-color: #1F2937;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   flex: auto;
+}
+
+.Right {
+   font-weight: 900;
+}
+
+.Left {
+   display: flex;
+   gap: 20px;
+   font-weight: 200;
+}
+
+.Right,
+.Left {
+   margin: 20px;
+}
+
+li {
+   list-style: none;
+}
+
+/* Sector 1 */
+
+.sector1 button {
+   color: #F9FAF8;
+   background-color: #3B82F6;
+   font-weight: 700;
+   padding: 7px 20px;
+   border: none;
+   border-radius: 7px;
+}
