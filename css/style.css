@@ -78,3 +78,48 @@ li {
    border: none;
    border-radius: 7px;
 }
+
+/* sector 2 */
+
+/* sector 3 */
+
+.sector3 {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   background-color: #E5E7EB;
+   font-size: 36px;
+   font-weight: 300;
+   padding: 50px;
+}
+
+.quote-author {
+   font-weight: 700;
+   align-self: flex-end;
+   font-size: 18px;
+}
+
+/* sector 4 */
+
+.sector4 {
+   display: flex;
+   justify-content: space-around;
+   flex: auto;
+   color: #F9FAF8;
+   background-color: #3882F6;
+   margin: 40px;
+   padding: 60px;
+   border-radius: 10px;
+}
+
+.sector4 button {
+   border: 2px solid;
+}
+
+/* footer */
+
+.footer {
+   padding: 50px;
+   align-items: center;
+   justify-content: center;
+}
