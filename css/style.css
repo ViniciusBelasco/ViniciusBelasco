@@ -81,6 +81,33 @@ li {
 
 /* sector 2 */
 
+.sector2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 60px;
+}
+
+.sector2-title {
+   font-size: 20px;
+   font-weight: 900;
+}
+
+.sector2-content {
+   display: flex;
+   gap: 30px;
+}
+
+.img-content {
+   width: 100px;
+   height: 100px;
+   border: 3px solid;
+   border-color: #3882F6;
+   border-radius: 5px;
+}
+
+
 /* sector 3 */
 
 .sector3 {
