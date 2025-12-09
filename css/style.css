@@ -2,11 +2,11 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: Roboto;
    /* set boxes to be the exact size I define */
 }
 
 body {
-   font-family: Roboto;
    display: flex;
    flex-direction: column;
 }
