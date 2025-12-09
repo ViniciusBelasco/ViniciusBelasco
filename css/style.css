@@ -31,19 +31,21 @@ header {
    font-size: 18px;
 }
 
-.Left {
+.Left a {
+   color: #F9FAF8;
+   text-decoration: none;
+   font-weight: 200;
+}
+
+.Left ul {
    display: flex;
    gap: 20px;
-   font-weight: 200;
+   list-style: none;
 }
 
 .Right,
 .Left {
    margin: 20px;
-}
-
-li {
-   list-style: none;
 }
 
 /* Sector 1 */
