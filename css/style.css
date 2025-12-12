@@ -49,29 +49,27 @@ header {
    padding: 80px 100px;
 }
 
-.hero img {
-   width: 500px;
-   height: 200px;
+.hero-text {
+   max-width: 40%;
 }
 
-.sector1-title {
-   font-size: 48px;
+.hero-text h1 {
+   font-size: 40px;
    font-weight: 900;
 }
 
-.sector1-text {
-   font-weight: 200;
-   margin-bottom: 10px;
+.hero-text p {
+   margin: 15px 0;
+   color: #E5E7EB;
 }
 
-.hero button,
-.sector4 button {
-   color: #F9FAF8;
-   background-color: #3882F6;
-   font-weight: 700;
-   padding: 7px 20px;
+.hero-text button {
+   background: #3882F6;
+   color: #E5E7EB;
+   padding: 10px 25px;
+   border-radius: 8px;
    border: none;
-   border-radius: 7px;
+   cursor: pointer;
 }
 
 /* sector 2 */
