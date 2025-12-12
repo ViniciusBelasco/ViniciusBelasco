@@ -33,29 +33,23 @@ header {
    list-style: none;
 }
 
-.sector1,
-.footer {
-   display: flex;
-   color: #F9FAF8;
-   background: #1F2937;
-}
-
 .Right {
    font-weight: 900;
    font-size: 18px;
 }
 
-/* Sector 1 */
+/* Hero */
 
-.sector1 {
+.hero {
+   background: #1F2937;
+   color: #F9FAF8;
+   display: flex;
    align-items: center;
-   justify-content: space-around;
-   gap: 20px;
-   flex: auto;
-   padding: 50px;
+   justify-content: space-between;
+   padding: 80px 100px;
 }
 
-.sector1 img {
+.hero img {
    width: 500px;
    height: 200px;
 }
@@ -70,7 +64,7 @@ header {
    margin-bottom: 10px;
 }
 
-.sector1 button,
+.hero button,
 .sector4 button {
    color: #F9FAF8;
    background-color: #3882F6;
