@@ -17,18 +17,8 @@ header {
    color: #F9FAF8;
    background: #1F2937;
    justify-content: space-between;
-}
-
-.sector1,
-.footer {
-   display: flex;
-   color: #F9FAF8;
-   background: #1F2937;
-}
-
-.Right {
-   font-weight: 900;
-   font-size: 18px;
+   padding: 20px 100px;
+   align-items: center;
 }
 
 .Left a {
@@ -43,9 +33,16 @@ header {
    list-style: none;
 }
 
-.Right,
-.Left {
-   margin: 20px;
+.sector1,
+.footer {
+   display: flex;
+   color: #F9FAF8;
+   background: #1F2937;
+}
+
+.Right {
+   font-weight: 900;
+   font-size: 18px;
 }
 
 /* Sector 1 */
