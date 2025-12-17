@@ -72,40 +72,39 @@ header {
    cursor: pointer;
 }
 
+.hero-image {
+   background: #747b83;
+   width: 450px;
+   height: 230px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 /* sector 2 */
 
-.sector2 {
+.info {
+   text-align: center;
+   padding: 60px;
+}
+
+.cards {
    display: flex;
-   flex-direction: column;
-   align-items: center;
    justify-content: center;
-   margin: 60px;
+   gap: 40px;
+   margin-top: 40px;
 }
 
-h3 {
-   font-size: 20px;
-   font-weight: 900;
+.card {
+   width: 150px;
 }
 
-.sector2-content {
-   display: flex;
-   gap: 30px;
+.square {
+   width: 150px;
+   height: 150px;
+   border: 3px solid #3882F6;
+   border-radius: 10px;
 }
-
-.img-content {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-.img {
-   width: 100px;
-   height: 100px;
-   border: 3px solid;
-   border-color: #3882F6;
-   border-radius: 5px;
-}
-
 
 /* sector 3 */
 
@@ -139,12 +138,21 @@ h3 {
 }
 
 .sector4 button {
+   color: #F9FAF8;
+   background-color: #3882F6;
+   font-weight: 700;
+   padding: 7px 20px;
+   border: none;
+   border-radius: 7px;
    border: 2px solid;
 }
 
 /* footer */
 
 .footer {
+   display: flex;
+   color: #F9FAF8;
+   background: #1F2937;
    padding: 50px;
    align-items: center;
    justify-content: center;
