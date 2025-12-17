@@ -124,25 +124,27 @@ header {
 
 /* sector 4 */
 
-.sector4 {
-   display: flex;
-   justify-content: space-around;
-   flex: auto;
-   color: #F9FAF8;
-   background-color: #3882F6;
-   margin: 40px;
-   padding: 20px;
-   border-radius: 10px;
+.cta {
+   padding: 80px 100px;
 }
 
-.sector4 button {
+.cta-box {
+   background: #3882F6;
    color: #F9FAF8;
-   background-color: #3882F6;
-   font-weight: 700;
-   padding: 7px 20px;
-   border: none;
-   border-radius: 7px;
+   padding: 30px 50px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.cta-box button {
+   background: none;
    border: 2px solid;
+   color: #F9FAF8;
+   padding: 8px 20px;
+   border-radius: 8px;
+   font-weight: 700;
 }
 
 /* footer */
