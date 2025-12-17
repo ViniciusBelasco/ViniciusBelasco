@@ -108,20 +108,18 @@ header {
 
 /* sector 3 */
 
-.sector3 {
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
-   background-color: #E5E7EB;
-   font-size: 36px;
-   font-weight: 300;
-   padding: 50px;
+.quote {
+   background: #E5E7EB;
+   padding: 90px 200px;
+   font-size: 26px;
+   font-style: italic;
+   color: #1F2937;
 }
 
-.quote-author {
-   font-weight: 700;
-   align-self: flex-end;
-   font-size: 18px;
+.author {
+   text-align: right;
+   font-weight: bold;
+   font-size: 20px;
 }
 
 /* sector 4 */
